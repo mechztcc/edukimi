@@ -2,10 +2,15 @@
 
 * {
     font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
     
 }
 
 body {
     background-color: #DEDEED;
     margin: 0;
+    height: 100%;
 }

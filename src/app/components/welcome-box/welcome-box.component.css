@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+.container .notice {
+    width: 70%;
+    margin: auto;
+}
+
+.container .welcome-title {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px 0;
+    
+}
+
+.container .welcome-title span {
+    color: #A1ED2B;
+    font-weight: bold;
+    
+}
+
+.container .welcome-text {
+    width: 70%;
+}

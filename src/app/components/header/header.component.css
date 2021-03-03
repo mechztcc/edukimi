@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1020px;
+    min-width: 1020px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .nav-name {
+    font-size: 22px;
+    /* font-weight: bold; */
+    width: 100%;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.content  .today {
+    /* padding-right: 15px; */
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.user span {
+    font-weight: bold;
+}
+
+.user img {
+    width: 40px;
+}
