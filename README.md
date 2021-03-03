@@ -1,3 +1,5 @@
+[![edukimi.png](https://i.postimg.cc/L85g2jXZ/edukimi.png)](https://postimg.cc/zymGkbTJ)
+
 # AngularEdukimi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
