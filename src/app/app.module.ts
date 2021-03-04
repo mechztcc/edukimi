@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WelcomeBoxComponent } from './components/welcome-box/welcome-box.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardDataBaseComponent } from './components/card-data-base/card-data-base.component';
+import { DataSelectionComponent } from './components/data-selection/data-selection.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CardDataBaseComponent } from './components/card-data-base/card-data-bas
     SideNavComponent,
     WelcomeBoxComponent,
     HeaderComponent,
-    CardDataBaseComponent
+    CardDataBaseComponent,
+    DataSelectionComponent
   ],
   imports: [
     BrowserModule,
