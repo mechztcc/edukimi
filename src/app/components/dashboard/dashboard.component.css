@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 1020px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container .header .title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.container .header .local {
+    font-size: 15px;
+}
+
+ .container .grid-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    margin: 15px;
+}

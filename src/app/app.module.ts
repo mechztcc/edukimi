@@ -13,6 +13,10 @@ import { WelcomeBoxComponent } from './components/welcome-box/welcome-box.compon
 import { HeaderComponent } from './components/header/header.component';
 import { CardDataBaseComponent } from './components/card-data-base/card-data-base.component';
 import { DataSelectionComponent } from './components/data-selection/data-selection.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CardDashboardComponent } from './components/card-dashboard/card-dashboard.component';
+import { NextEventsComponent } from './components/next-events/next-events.component';
+import { CardEventComponent } from './components/card-event/card-event.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { DataSelectionComponent } from './components/data-selection/data-selecti
     WelcomeBoxComponent,
     HeaderComponent,
     CardDataBaseComponent,
-    DataSelectionComponent
+    DataSelectionComponent,
+    DashboardComponent,
+    CardDashboardComponent,
+    NextEventsComponent,
+    CardEventComponent
   ],
   imports: [
     BrowserModule,

@@ -13,4 +13,9 @@ body {
     background-color: #DEDEED;
     margin: 0;
     height: 100%;
+    position: relative;
+}
+
+html {
+    height: 100%;
 }
