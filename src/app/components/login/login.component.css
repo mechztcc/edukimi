@@ -50,6 +50,7 @@ form input {
     border: none;
     margin-top: 3px;
     font-size: 18px;
+    padding-left: 15px;
 }
 
 form button {

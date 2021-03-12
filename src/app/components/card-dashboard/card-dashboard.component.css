@@ -3,8 +3,11 @@
     flex-direction: column;
     width: 100%;
     background-color: #FFF;
+    transition: all ease 0.5s;
     
 }
+
+
 
 .container .img {
     width: 100%;
