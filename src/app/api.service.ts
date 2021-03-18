@@ -18,7 +18,7 @@ export class ApiService {
 
   
 
-  baseUrl: string = 'http://localhost:8080'
+  baseUrl: string = 'http://localhost:8080/user'
 
   constructor(private http: HttpClient) { }
 

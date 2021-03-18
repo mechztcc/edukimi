@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    max-width: 400px;
     height: 500px;
     background-color: #FFF;
     border: none;
@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: 3px 4px 5px #a59bc0;
+    flex-wrap: wrap;
 }
 
 .content {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from './../../api.service';
 
 
 
@@ -9,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
+    this.getUser();
+  }
+  
+  getUser() {    
+    this.apiService.list(1).subscribe((user) => {
+      console.log(user);
+      
+    })
   }
 
 }

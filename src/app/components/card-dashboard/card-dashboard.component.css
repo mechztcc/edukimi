@@ -1,16 +1,17 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: #FFF;
     transition: all ease 0.5s;
-    
+    width: 100%;
+
 }
 
 
 
 .container .img {
     width: 100%;
+    object-fit: fill;
 }
 
 .container .img img {
