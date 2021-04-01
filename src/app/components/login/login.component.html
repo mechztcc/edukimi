@@ -1,10 +1,10 @@
 <div class="content">
     <div class="title">Bem-vindo ao <span>Edukimi</span></div>
     <img class="user-img" src="assets/user.png" alt="">
-    <form>
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="*************">
-        <button>Entrar</button>
+    <form [formGroup]="form">
+        <input type="text" placeholder="Email" formControlName="email">
+        <input type="password" placeholder="*************" formControlName="password">
+        <button (click)="login()">Entrar</button>
     </form>
     <div class="login-icons">
         <img src="assets/google.png" alt="Google login">
